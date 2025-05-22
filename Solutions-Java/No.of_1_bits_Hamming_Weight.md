@@ -32,29 +32,42 @@ There are multiple ways to do this:
 
 ---
 
-### 🔑 Python Code
+### 🔑 Java Code
 
-```python
-def hammingWeight(n):
-    count = 0
-    while n:
-        count += n & 1  # Add 1 if the last bit is set
-        n >>= 1         # Right shift to move to the next bit
-    return count
+```Java
+public int hammingWeight(int n) {
+        int count=0;
+        String s= Integer.toBinaryString(n);
+        for(int i=0; i<s.length(); i++){
+            if(s.charAt(i)=='1'){
+                count++;
+            }
+        }
+        return count;
+        
+    }
 ```
+using Brute force, converted int to binary string and found no.of 1's by charAt operation.
+Time complexity: O(n)
+Space complexity: O(1)
 
 ---
 
 ### 🧠 Bit Manipulation Optimization
 
-```python
-def hammingWeight(n):
-    count = 0
-    while n:
-        n &= n - 1  # Removes the last set bit
-        count += 1
-    return count
+```Java
+public int hammingWeight(int n) {
+       int count=0;
+       while(n>0){
+            count= count+ n%2;
+            n=n/2;
+        }
+        return count;
+        
+    }
 ```
+This solution works on bits and we get the solution with time complexity like O(log n) as each iteration we are cutting into half
+Space complexity: O(1)
 
 💡 This uses **Brian Kernighan's Algorithm** to turn off the rightmost 1-bit in each iteration.
 
@@ -81,8 +94,3 @@ def hammingWeight(n):
 
 ---
 
-### 🖼️ Diagram
-
-<p align="center">
-  <img src="../Images/hamming-weight.png" width="500" alt="Hamming Weight Diagram"/>
-</p>

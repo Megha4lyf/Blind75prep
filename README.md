@@ -51,10 +51,3 @@ Here's a diagram illustrating the process:
 
 *(Ensure your `Images` folder is in the same directory as this Markdown file, and the `2-sum.png` file is inside it.)*
 
-
-# --- Example Usage ---
-# sol = Solution()
-
-# print(f"Example 1: {sol.twoSum([2,7,11,15], 9)}")  # Expected: [0, 1]
-# print(f"Example 2: {sol.twoSum([3,2,4], 6)}")      # Expected: [1, 2]
-# print(f"Example 3: {sol.twoSum([3,3], 6)}")        # Expected: [0, 1]

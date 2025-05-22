@@ -81,6 +81,6 @@ Instead of checking every pair (O(n²)), we use a **HashMap** to reduce the time
 
 ### 🖼️ Diagram
 
-<p align="center">
-  <img src="Images/2-sum.png" width="500" alt="Two Sum Diagram"/>
-</p>
+
+![My Diagram](Images/2-sum.png)
+

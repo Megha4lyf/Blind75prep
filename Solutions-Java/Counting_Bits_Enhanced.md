@@ -95,8 +95,3 @@ This helps to **reuse** already computed results and achieves **O(n)** time.
 
 ---
 
-### 🖼️ Diagram
-
-<p align="center">
-  <img src="../Images/counting-bits.png" width="500" alt="Counting Bits Diagram"/>
-</p>

@@ -3,7 +3,7 @@
   
 Array
 
-1.  Two Sum -----(HashMap/ nested loops)
+1.  Two Sum -----(HashMap/ nested loops) - ✅
 2.  Best Time to Buy and Sell Stock---kadane’s algorithm
 3.  Contains Duplicate-----(HashMap/set) if only one duplicate pair exists
 4.  Product of Array Except Self

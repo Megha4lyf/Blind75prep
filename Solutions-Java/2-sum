@@ -20,3 +20,9 @@ Example 3:
 Input: nums = [3,3], target = 6
 Output: [0,1]
 
+Solution
+
+Find compliment of each index of the array, if the complement exists return the 2 indices else place this element in Hashmap,
+such that key will the element and value will be the index
+
+![My Diagram] (Images/2-sum.png)

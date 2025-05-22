@@ -34,8 +34,8 @@
 <summary>Expand</summary>
 
 - [ ] **Sum of Two Integers**
-- [ ] **Number of 1 Bits**
-- [ ] **Counting Bits**
+- [x] **Number of 1 Bits**
+- [x] **Counting Bits**
 - [ ] **Missing Number**
 - [ ] **Reverse Bits**
 

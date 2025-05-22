@@ -73,13 +73,6 @@ It’s like two runners on a circular track — the faster runner will eventuall
 
 ---
 
-### 🖼️ Visual Diagram
-
-<p align="center">
-  <img src="../Images/linkedlist-cycle.png" width="500" alt="Linked List Cycle Detection"/>
-</p>
-
----
 
 ### 📊 Time & Space Complexity
 

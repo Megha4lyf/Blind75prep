@@ -83,4 +83,24 @@ Instead of checking every pair (O(n²)), we use a **HashMap** to reduce the time
 
 <img src="../Images/2-sum.png" width="500" alt="Two Sum Diagram"/>
 
+### ⌨💡 Code
+```
+class Solution {
+    public int[] twoSum(int[] nums, int target) {
+        Map<Integer, Integer> map = new HashMap<>();
+
+        for(int i=0; i<nums.length; i++){
+            int complement= target-nums[i];
+            if(map.containsKey(complement)){
+                return new int[] {map.get(complement),i};
+            }
+            else{
+                map.put(nums[i],i);
+            }
+        }
+        int arr[]= {-1, -1};
+        return arr;
+    }
+}
+```
 

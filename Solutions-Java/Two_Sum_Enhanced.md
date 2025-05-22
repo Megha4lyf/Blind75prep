@@ -60,20 +60,6 @@ Instead of checking every pair (O(n²)), we use a **HashMap** to reduce the time
 
 ---
 
-### 🔑 Python Code
-
-```python
-def twoSum(nums, target):
-    hashmap = {}  # Stores number → index
-    for i, num in enumerate(nums):
-        complement = target - num
-        if complement in hashmap:
-            return [hashmap[complement], i]
-        hashmap[num] = i
-```
-
----
-
 ### 🧾 Dry Run (Example: `[2, 7, 11, 15]`, `target = 9`)
 
 | i | num | target - num | HashMap         | Output     |

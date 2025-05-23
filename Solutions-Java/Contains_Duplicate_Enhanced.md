@@ -110,11 +110,6 @@ public boolean containsDuplicate(int[] nums) {
 
 ---
 
-### 🖼️ Optional Diagram
-
-<p align="center">
-  <img src="../Images/contains-duplicate.png" width="500" alt="Contains Duplicate Logic"/>
-</p>
 
 ---
 

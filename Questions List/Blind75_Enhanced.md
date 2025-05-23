@@ -15,7 +15,7 @@
 |----------|---------|-----------|
 | ✅ | **Two Sum** | HashMap / Nested Loops |
 | ⏳ | **Best Time to Buy and Sell Stock** | Kadane’s Algorithm |
-| ⏳ | **Contains Duplicate** | HashMap / Set (check for 1 duplicate pair) |
+| ✅ | **Contains Duplicate** | HashMap / Set (check for 1 duplicate pair) |
 | ⏳ | **Product of Array Except Self** |  |
 | ⏳ | **Maximum Subarray** |  |
 | ⏳ | **Maximum Product Subarray** |  |
@@ -102,8 +102,8 @@
 <details>
 <summary>Expand</summary>
 
-- [x] **Reverse a Linked List**
-- [ ] **Detect Cycle in a Linked List**
+- [ ] **Reverse a Linked List**
+- [x] **Detect Cycle in a Linked List**
 - [ ] **Merge Two Sorted Lists**
 - [ ] **Merge K Sorted Lists**
 - [ ] **Remove Nth Node From End of List**

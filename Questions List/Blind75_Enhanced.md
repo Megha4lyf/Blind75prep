@@ -102,7 +102,7 @@
 <details>
 <summary>Expand</summary>
 
-- [ ] **Reverse a Linked List**
+- [x] **Reverse a Linked List**
 - [x] **Detect Cycle in a Linked List**
 - [ ] **Merge Two Sorted Lists**
 - [ ] **Merge K Sorted Lists**

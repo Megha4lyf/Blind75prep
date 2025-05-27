@@ -51,3 +51,17 @@ Here's a diagram illustrating the process:
 
 *(Ensure your `Images` folder is in the same directory as this Markdown file, and the `2-sum.png` file is inside it.)*
 
+
+
+When working for Binary search, there are only 2 kind of conditions in `while` loop.
+
+✅ When to use left <= right
+Use when you're:
+
+Searching for a specific value (like exact match or floor of square root)
+
+*Need to ensure every value in range is checked*
+
+🟨 When to use left < right
+Only when you're doing search for *insertion position*, or writing a variant of binary search that avoids infinite loops due to edge cases. But even then, it's tricky.
+

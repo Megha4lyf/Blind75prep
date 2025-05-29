@@ -14,7 +14,7 @@
 | ✅ Status | Problem | Technique |
 |----------|---------|-----------|
 | ✅ | **Two Sum** | HashMap / Nested Loops |
-| ⏳ | **Best Time to Buy and Sell Stock** | Kadane’s Algorithm |
+| ✅ | **Best Time to Buy and Sell Stock** | Kadane’s Algorithm |
 | ✅ | **Contains Duplicate** | HashMap / Set (check for 1 duplicate pair) |
 | ⏳ | **Product of Array Except Self** |  |
 | ⏳ | **Maximum Subarray** |  |

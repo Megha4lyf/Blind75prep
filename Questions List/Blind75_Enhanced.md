@@ -33,7 +33,7 @@
 <details>
 <summary>Expand</summary>
 
-- [ ] **Sum of Two Integers**
+- [x] **Sum of Two Integers**
 - [x] **Number of 1 Bits**
 - [x] **Counting Bits**
 - [ ] **Missing Number**
